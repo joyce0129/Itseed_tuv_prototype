@@ -159,3 +159,16 @@ footer{
     font-style: normal;
     color: #FEFEE6;
 }
+
+.homepage-fade {
+    position: fixed;
+    width: 100vw;
+    height: 200vh;
+    background-color:#F5EEE1;
+    transition: 1.5s;
+}
+
+.hompage-fade-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
