@@ -1,0 +1,161 @@
+body{
+    background-color:#292929 ;
+    width:100vw;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    background-color: #292929;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.logo_box{
+    width: auto;
+    height: 60px;
+    margin: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoname{
+    text-decoration: none;
+    margin: 0px;
+    color: #F4E564;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.banner_bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    background-color: #292929;
+}
+
+article{
+    width: 100vw;
+    height: auto;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.article_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: #F4E564;
+    font-weight: 600;
+}
+
+.article_content{
+    width: 100vw;
+    height: auto;
+    background-color: #444341;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FEFEE6;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text_box{
+    margin: 0;
+}
+
+.a_text{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FEFEE6;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.button_box{
+    width: 100vw;
+    height: auto;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+.option_button {
+    background-color: #F4E564; /* 黃色按鈕 */
+    border: none;
+    color:#292929;
+    padding: 50px 25px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.option_button:hover {
+    background-color: #FFC107; /* 按鈕 hover 顏色 */
+    transform: scale(1.05); /* 輕微放大效果 */
+}
+
+.option_button:active {
+    background-color: #FFC107; /* 按鈕點擊顏色 */
+    transform: scale(0.98); /* 輕微縮小效果 */
+}
+
+footer{
+    width:100vw;
+    height:auto;
+    background-color: #444341;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FEFEE6;
+}
