@@ -37,7 +37,7 @@ header{
 
 .banner{
     width: 100%;
-    height: 50%;
+    height: 250px;
 }
 
 .banner_bg{
@@ -118,7 +118,7 @@ article{
     gap: 100px;
 }
 
-.option_button {
+.option_button1 {
     background-color: #F4E564; /* 黃色按鈕 */
     border: none;
     color:#292929;
@@ -131,13 +131,36 @@ article{
     transition: background-color 0.3s, transform 0.2s;
 }
 
-.option_button:hover {
-    background-color: #FFC107; /* 按鈕 hover 顏色 */
+.option_button2 {
+    background-color: #d5d5d3; /* 黃色按鈕 */
+    border: none;
+    color:#292929;
+    padding: 50px 25px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.option_button1:hover {
+    background-color: #Ffda03; /* 按鈕 hover 顏色 */
     transform: scale(1.05); /* 輕微放大效果 */
 }
 
-.option_button:active {
-    background-color: #FFC107; /* 按鈕點擊顏色 */
+.option_button2:hover {
+    background-color: #bcbbbe; /* 按鈕 hover 顏色 */
+    transform: scale(1.05); /* 輕微放大效果 */
+}
+
+.option_button1:active {
+    background-color: #Ffda03; /* 按鈕點擊顏色 */
+    transform: scale(0.98); /* 輕微縮小效果 */
+}
+
+.option_button2:active {
+    background-color: #bcbbbe; /* 按鈕點擊顏色 */
     transform: scale(0.98); /* 輕微縮小效果 */
 }
 
@@ -171,4 +194,83 @@ footer{
 .hompage-fade-hidden {
     opacity: 0;
     visibility: hidden;
+}
+
+/* 手機尺寸以下的 RWD 設定 */
+@media screen and (max-width: 768px) {
+
+    /* 背景顏色和方向 */
+    body {
+        width: 100vw;
+        padding: 0;
+    }
+
+    /* 標頭 */
+    header {
+        height: 50px;
+        justify-content: center;
+    }
+
+    .logo_box {
+        margin: 0;
+    }
+
+    .logoname {
+        font-size: 24px;
+    }
+
+    /* Banner 圖片 */
+    .banner {
+        height: 150px;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    /* 文章標題和文字 */
+    .article_p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .a_text {
+        font-size: 20px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    /* 按鈕區域 */
+    .button_box {
+        padding: 50px;
+    }
+
+    .button_container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .option_button1,
+    .option_button2 {
+        padding: 20px;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    /* 頁腳 */
+    footer {
+        padding: 20px;
+    }
+
+    .footer_p {
+        font-size: 18px;
+    }
+
+    /* 首頁淡入效果 */
+    .homepage-fade {
+        height: 100vh;
+    }
 }
