@@ -221,7 +221,7 @@ footer{
 
     /* Banner 圖片 */
     .banner {
-        height: 150px;
+        height: auto;
         width: 100%;
         object-fit: cover;
     }
