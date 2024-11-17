@@ -196,8 +196,6 @@ footer{
     visibility: hidden;
 }
 
-
-
 /* 手機尺寸以下的 RWD 設定 */
 @media screen and (max-width: 768px) {
 
@@ -223,9 +221,9 @@ footer{
 
     /* Banner 圖片 */
     .banner {
-        height: auto;
+        height: 150px;
         width: 100%;
-/*         object-fit: cover; */
+        object-fit: cover;
     }
 
     /* 文章標題和文字 */
@@ -242,7 +240,6 @@ footer{
     .a_text {
         font-size: 20px;
         padding: 0 20px;
-        
         text-align: left;
     }
 
@@ -252,20 +249,19 @@ footer{
     }
 
     .button_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    
-}
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 
     .option_button1,
-.option_button2 {
-    padding: 20px;
-    font-size: 16px;
-    
-}
+    .option_button2 {
+        padding: 20px;
+        font-size: 16px;
+        width: 80%;
+        text-align: left;
+    }
 
     /* 頁腳 */
     footer {
