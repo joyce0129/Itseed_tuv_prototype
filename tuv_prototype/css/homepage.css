@@ -101,7 +101,7 @@ article{
 }
 
 .button_box{
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color: #292929;
     display: flex;
@@ -194,6 +194,12 @@ footer{
 .hompage-fade-hidden {
     opacity: 0;
     visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block; /* 避免影响内部按钮的布局 */
+    width: 100%; /* 可选，确保其宽度与按钮匹配 */
 }
 
 /* 手機尺寸以下的 RWD 設定 */
