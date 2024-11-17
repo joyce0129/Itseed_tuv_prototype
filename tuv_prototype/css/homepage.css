@@ -257,24 +257,16 @@ footer{
          width: 100%; /* 确保容器的宽度为100% */
     }
 
-/*     .option_button1,
+    .option_button1,
     .option_button2 {
         padding: 20px;
         font-size: 16px;
         width: 80%;
         text-align: left;
          margin: 0 auto; /* 水平居中 */
-    } */
-
-    .option_button1,
-    .option_button2 {
-        width: 90%; /* 占据父容器的 90% 宽度 */
-        height: 70px; /* 设置更大的高度 */
-        font-size: 18px; /* 调整字体大小，适合更大的按钮 */
-        margin: 15px auto; /* 每个按钮之间保持一定间距并居中 */
-        border-radius: 10px; /* 增加圆角 */
     }
 
+    
     /* 頁腳 */
     footer {
         padding: 20px;
@@ -288,9 +280,5 @@ footer{
     .homepage-fade {
         height: 100vh;
     }
-    a {
-    text-decoration: none;
-    display: inline-block; /* 避免影响内部按钮的布局 */
-    width: 100%; /* 可选，确保其宽度与按钮匹配 */
-}
+    
 }
