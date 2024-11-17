@@ -246,6 +246,7 @@ footer{
     /* 按鈕區域 */
     .button_box {
         padding: 50px;
+         width: 100%; /* 确保容器宽度 */
     }
 
     .button_container {
@@ -253,6 +254,7 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 20px;
+         width: 100%; /* 确保容器的宽度为100% */
     }
 
     .option_button1,
@@ -261,6 +263,7 @@ footer{
         font-size: 16px;
         width: 80%;
         text-align: left;
+         margin: 0 auto; /* 水平居中 */
     }
 
     /* 頁腳 */
@@ -276,4 +279,9 @@ footer{
     .homepage-fade {
         height: 100vh;
     }
+    a {
+    text-decoration: none;
+    display: inline-block; /* 避免影响内部按钮的布局 */
+    width: 100%; /* 可选，确保其宽度与按钮匹配 */
+}
 }
