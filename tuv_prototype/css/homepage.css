@@ -346,34 +346,21 @@ footer{
     visibility: hidden;
 }
 
-/* 手機尺寸以下的 RWD 設定 */
-@media screen and (max-width: 768px) {
 
+
+
+
+/* 手機尺寸以下 (最大寬度 768px) 的 RWD 設定 */
+@media screen and (max-width: 768px) {
     /* 背景顏色和方向 */
     body {
-        width: 100vw;
         padding: 0;
-    }
-
-    /* 標頭 */
-    header {
-        height: 50px;
-        justify-content: center;
-    }
-
-    .logo_box {
-        margin: 0;
-    }
-
-    .logoname {
-        font-size: 24px;
     }
 
     /* Banner 圖片 */
     .banner {
         height: auto;
         width: 100%;
-        
     }
 
     /* 文章標題和文字 */
@@ -382,53 +369,116 @@ footer{
         text-align: center;
     }
 
-    .title {
-        font-size: 25px;
+    .artical2_p{
+        font-size: 24px;
         text-align: center;
     }
 
-    .a_text {
+    .title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .large_text {
+        font-size: 60px;
+    }
+
+    .small_text {
         font-size: 20px;
-        padding: 0 20px;
-        text-align: left;
     }
 
-    /* 按鈕區域 */
-    .button_box {
-        padding: 50px;
-         width: 100%; /* 确保容器宽度 */
-    }
-
-    .button_container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-         width: 100%; /* 确保容器的宽度为100% */
-    }
-
+    /* 按鈕樣式調整 */
     .option_button1,
-    .option_button2 {
-        padding: 20px;
-        font-size: 16px;
-        width: 100%;
-        text-align: left;
-         margin: 0 auto; /* 水平居中 */
+    .option_button2,
+    .option_button3 {
+        padding: 15px 30px;
+        font-size: 18px;
+        width: auto; /* 自動調整寬度 */
     }
 
-    
+    /* 獎項區塊 */
+    .award_box {
+        flex-direction: column; /* 切換為垂直排列 */
+        width: 100%;
+    }
+    .award_small_box{
+        width:273px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 40px
+    }
+
+    .award_container_white,
+    .award_container_yellow {
+        width: 85%; /* 減少寬度以適應小螢幕 */
+        margin-bottom: 20px; /* 添加間距 */
+    }
+
+    /* 服務區塊 */
+    .service_box {
+        flex-direction: column; /* 切換為垂直排列 */
+        gap: 20px;
+        width: 100%;
+    }
+
+    .service_box_container_white,
+    .service_box_container_yellow {
+        width: 90%;
+        height: auto; /* 讓高度自動適應 */
+        padding: 20px;
+        font-size: 40px;
+    }
+
+    /* 文字區塊 */
+    .text_box {
+        padding: 20px;
+    }
+
+    /* 更多資訊區 */
+    .more_box {
+        width: 90%; /* 壓縮寬度 */
+        padding: 20px;
+    }
+
+    .more_text {
+        font-size: 20px;
+    }
+
     /* 頁腳 */
     footer {
-        padding: 20px;
+        padding: 10px;
     }
 
     .footer_p {
         font-size: 18px;
     }
+}
 
-    /* 首頁淡入效果 */
-    .homepage-fade {
-        height: 100vh;
+
+
+/* 平板尺寸以下 (最大寬度 1024px) 的 RWD 設定 */
+@media screen and (max-width: 1024px) {
+    /* 保持水平排列但壓縮寬度 */
+    .award_box,
+    .service_box {
+        width: 95%;
+        gap: 15px;
     }
-    
+
+    /* 獎項和服務容器縮小 */
+    .award_container_white,
+    .award_container_yellow,
+    .service_box_container_white,
+    .service_box_container_yellow {
+        width: 45%; /* 改為 50% 的相對寬度 */
+    }
+
+    /* 調整按鈕大小 */
+    .option_button1,
+    .option_button2,
+    .option_button3 {
+        padding: 20px;
+        font-size: 24px;
+    }
 }
