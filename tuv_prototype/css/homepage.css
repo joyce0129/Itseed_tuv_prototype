@@ -402,16 +402,16 @@ footer{
         width: 100%;
     }
     .award_small_box{
-        width:273px;
+        width:90%;
         height: auto;
         padding-top: 20px;
         padding-bottom: 20px;
-        font-size: 40px
+        font-size: 24px
     }
 
     .award_container_white,
     .award_container_yellow {
-        width: 85%; /* 減少寬度以適應小螢幕 */
+        width: 90%; /* 減少寬度以適應小螢幕 */
         margin-bottom: 20px; /* 添加間距 */
     }
 
