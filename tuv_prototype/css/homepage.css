@@ -403,7 +403,7 @@ footer{
     .option_button2,
     .option_button3 {
         padding: 15px 30px;
-        font-size: 12px;
+        font-size: 10px;
         width: auto; /* 自動調整寬度 */
     }
 
@@ -453,7 +453,7 @@ footer{
     }
 
     .more_text {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     /* 頁腳 */
