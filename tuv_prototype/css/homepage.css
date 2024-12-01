@@ -128,7 +128,7 @@ body{
     gap: 100px;
 }
 #article2{
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-color: #000000;
     display: flex;
@@ -325,7 +325,7 @@ body{
 
 
 footer{
-    width:100%;
+    width:100vw;
     height:auto;
     background-color: #000000;
     text-align:center;
