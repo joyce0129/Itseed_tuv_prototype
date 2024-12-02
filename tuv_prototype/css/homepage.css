@@ -448,6 +448,9 @@ footer{
     .text_box {
         padding: 10px;
     }
+    .text_box_container{
+        gap:50px;
+    }
 
     /* 更多資訊區 */
     .more_box {
