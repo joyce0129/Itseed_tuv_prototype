@@ -212,18 +212,19 @@ body{
 
 .award_small_box{
     width: 392px;
-    height: 192px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #444341;
+    background-color: #F3D255;
     border-radius: 20px;
     
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
-    color: #F2F4EF;
+    font-weight: 500;
+    color: #000000;
 }
 
 .award_text_box{
@@ -238,7 +239,7 @@ body{
 
 .small_text{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     color: #000000;
     text-align: center;
     margin: 2px;
@@ -266,7 +267,7 @@ body{
 
 .service_box_container_yellow{
     width: 392px;
-    height: 250px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,11 +280,12 @@ body{
     font-size: 64px;
     color: #002748;
     font-weight: 600;
+    margin: 0;
 }
 
 .service_box_container_white{
     width: 392px;
-    height: 250px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,6 +298,7 @@ body{
     font-size: 64px;
     color: #002748;
     font-weight: 600;
+    margin: 0;
 }
 .more_box{
     width: 1142px;
