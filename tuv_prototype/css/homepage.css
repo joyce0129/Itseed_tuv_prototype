@@ -402,8 +402,8 @@ footer{
     .option_button1,
     .option_button2,
     .option_button3 {
-        padding: 10px 25px;
-        font-size: 5px;
+        padding: 8px 16px;
+        font-size: 12px;
         width: auto; /* 自動調整寬度 */
     }
 
