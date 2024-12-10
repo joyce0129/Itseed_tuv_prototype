@@ -24,6 +24,7 @@ body{
    
 }
 
+/* 第一個區塊 */
 #article1{
     width: 100vw;
     height: auto;
@@ -34,6 +35,7 @@ body{
     justify-content: center;
 }
 
+/* 標題:移動悠勢力，任務創新意 */
 .article_p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
@@ -43,6 +45,7 @@ body{
     margin-bottom: 30px;
 }
 
+
 .article_content{
     width: 100vw;
     height: auto;
@@ -51,10 +54,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
+/* 小標:參加USPACE雙人停車挑戰，邀請朋友一起完成任務獲得專屬折扣 */
 .title{
     font-family:Arial, Helvetica, sans-serif;
     color: #002748;
@@ -66,6 +68,7 @@ body{
     margin-bottom: 24px;
 }
 
+/* 按鈕一:了解更多 */
 .option_button1 {
     background-color: #002748; /* 黃色按鈕 */
     border: none;
@@ -79,6 +82,7 @@ body{
     transition: background-color 0.3s, transform 0.2s;
 }
 
+/* 按鈕二:我沒興趣 */
 .option_button2 {
     background-color: #d5d5d3; 
     border: none;
@@ -92,21 +96,22 @@ body{
     transition: background-color 0.3s, transform 0.2s;
 }
 
+/* 按鈕一效果 */
 .option_button1:hover {
     background-color: #005EAE; /* 按鈕 hover 顏色 */
     transform: scale(1.05); /* 輕微放大效果 */
 }
-
+/* 按鈕二效果 */
 .option_button2:hover {
     background-color: #bcbbbe; /* 按鈕 hover 顏色 */
     transform: scale(1.05); /* 輕微放大效果 */
 }
-
+/* 按鈕一效果 */
 .option_button1:active {
     background-color: #005EAE; /* 按鈕點擊顏色 */
     transform: scale(0.98); /* 輕微縮小效果 */
 }
-
+/* 按鈕二效果 */
 .option_button2:active {
     background-color: #bcbbbe; /* 按鈕點擊顏色 */
     transform: scale(0.98); /* 輕微縮小效果 */
@@ -127,6 +132,8 @@ body{
     margin:0;
     gap: 100px;
 }
+
+/* 第二區塊 */
 #article2{
     width: 100vw;
     height: auto;
@@ -136,7 +143,6 @@ body{
     align-items: center;
     justify-content: center;
     gap: 30px;
-    /* padding: 30px; */
     padding-top: 0;
     padding-right: 0;
     padding-left: 0;
@@ -144,6 +150,7 @@ body{
     margin: 0,auto;
 }
 
+/* 區塊二標題 */
 .artical2_p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -151,6 +158,7 @@ body{
     text-align: center;
 }
 
+/* 按鈕三 */
 .option_button3 {
     background-color: #F3D255; 
     border: none;
@@ -164,19 +172,17 @@ body{
     transition: background-color 0.3s, transform 0.2s;
 }
 
+/* 按鈕三效果 */
 .option_button3:hover {
     background-color: #FFCB04; /* 按鈕 hover 顏色 */
     transform: scale(1.05); /* 輕微放大效果 */
 }
-
 .option_button3:active {
     background-color: #FFCB04; /* 按鈕點擊顏色 */
     transform: scale(0.98); /* 輕微縮小效果 */
 }
 
-
-
-
+/* 獎勵區塊 */
 .award_box{
     width: 1294px;
     height: auto;
@@ -199,17 +205,7 @@ body{
     background-color: #F2F4EF;
 }
 
-.award_container_yellow{
-    width: 392px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    background-color:#F3D255;
-}
-
+/* 獎勵區塊小標:停車?次 */
 .award_small_box{
     width: 392px;
     height: 150px;
@@ -220,13 +216,13 @@ body{
     background-color: #F3D255;
     border-radius: 20px;
     
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
     font-weight: 500;
     color: #000000;
 }
 
+/* 獎勵區塊小標:兌換金額共?元折價券 */
 .award_text_box{
     width: 254px;
     height: auto;
@@ -255,6 +251,7 @@ body{
     margin: 3px;
 }
 
+/* 服務種類區塊 */
 .service_box{
     width: 1294px;
     height: auto;
@@ -265,24 +262,7 @@ body{
     gap: 30px;
 }
 
-.service_box_container_yellow{
-    width: 392px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color:#F3D255;
-    border-radius: 20px;
-    
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 64px;
-    color: #002748;
-    font-weight: 600;
-    margin: 0;
-}
-
+/* 服務種類區塊標題 */
 .service_box_container_white{
     width: 392px;
     height: 150px;
@@ -300,6 +280,8 @@ body{
     font-weight: 600;
     margin: 0;
 }
+
+/* 補充說明區塊 */
 .more_box{
     width: 1142px;
     height: auto;
@@ -309,6 +291,7 @@ body{
     background-color: #002748;
     border-radius: 20px;
 }
+
 .more_text{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
@@ -316,6 +299,7 @@ body{
     text-align: center;
 }
 
+/* 第三區塊 */
 #artical3{
     width: 100%;
     height: auto;
@@ -326,7 +310,7 @@ body{
     justify-content: center;
 }
 
-
+/* footer */
 footer{
     width:100vw;
     height:auto;
@@ -338,6 +322,7 @@ footer{
     justify-content: center;
 }
 
+/* footer標題 */
 .footer_p{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -346,6 +331,7 @@ footer{
     color: #FEFEE6;
 }
 
+/* 淡入效果 */
 .homepage-fade {
     position: fixed;
     width: 100vw;
@@ -353,7 +339,6 @@ footer{
     background-color:#F5EEE1;
     transition: 1.5s;
 }
-
 .hompage-fade-hidden {
     opacity: 0;
     visibility: hidden;
@@ -410,7 +395,7 @@ footer{
         width: auto; /* 自動調整寬度 */
     }
 
-    /* 獎項區塊 */
+    /* 獎勵區塊 */
     .award_box {
         flex-direction: column; /* 切換為垂直排列 */
         width: 100%;
@@ -452,7 +437,7 @@ footer{
         gap:50px;
     }
 
-    /* 更多資訊區 */
+    /* 補充說明 */
     .more_box {
         width: 90%; /* 壓縮寬度 */
         padding: 10px;
@@ -462,7 +447,7 @@ footer{
         font-size: 12px;
     }
 
-    /* 頁腳 */
+    /* footer */
     footer {
         padding: 10px;
     }
