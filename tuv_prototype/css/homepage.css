@@ -422,6 +422,11 @@ footer{
         margin-bottom: 20px; /* 添加間距 */
     }
 
+    .award_text_box{
+    padding: 5px;
+    text-align: center;
+}
+
     /* 服務區塊 */
     .service_box {
         flex-direction: column; /* 切換為垂直排列 */
