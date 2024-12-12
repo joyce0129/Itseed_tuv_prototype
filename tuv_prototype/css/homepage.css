@@ -445,7 +445,8 @@ footer{
         font-size: 24px
     }
 .award_text_box{
-    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
     .award_container_white,
