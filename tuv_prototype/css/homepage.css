@@ -481,14 +481,15 @@ footer{
     }
 
     /* 補充說明 */
-    .more_box {
+    .more_box,.more_box_white {
         width: 90%; /* 壓縮寬度 */
         padding: 10px;
     }
-    .more_title{
+
+    .more_title,.more_title_black{
         font-size: 20px;
     }
-    .more_text {
+    .more_text{
         font-size: 16px;
     }
 
