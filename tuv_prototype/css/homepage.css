@@ -423,7 +423,8 @@ footer{
     }
 
     .award_text_box{
-    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 
