@@ -418,7 +418,7 @@ footer{
 
     .award_container_white,
     .award_container_yellow {
-        width: 90%; /* 減少寬度以適應小螢幕 */
+        width: 100%; 
         margin-bottom: 20px; /* 添加間距 */
     }
 
