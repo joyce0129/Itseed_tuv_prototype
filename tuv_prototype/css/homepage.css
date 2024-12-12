@@ -330,6 +330,23 @@ footer{
     justify-content: center;
 }
 
+/* 底部說明:本網頁目前為測試版本，內容僅供測試使用 */
+.article4_p{
+    width: 100vw;
+    height: auto;
+    background-color: #bcbbbe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;  
+}
+
 /* footer標題 */
 .footer_p{
     font-size: 30px;
@@ -463,11 +480,14 @@ footer{
         font-size: 16px;
     }
 
+    
     /* footer */
     footer {
         padding: 10px;
     }
-
+    .article4_p{
+        font-size: 12px;
+    }
     .footer_p {
         font-size: 18px;
     }
