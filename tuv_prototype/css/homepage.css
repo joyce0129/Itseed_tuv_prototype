@@ -334,19 +334,6 @@ body{
     justify-content: center;
 }
 
-.article4_p{
-    width: 100vw;
-    height: auto;
-    background-color: #bcbbbe;
-    
-    margin: 0;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: #000000;
-    font-weight: 600;  
-}
-
 /* footer */
 footer{
     width:100vw;
@@ -444,19 +431,17 @@ footer{
         padding-bottom: 20px;
         font-size: 24px
     }
-.award_text_box{
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-}
+    .award_text_box{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
     .award_container_white,
     .award_container_yellow {
         width: 100%; /* 減少寬度以適應小螢幕 */
         margin-bottom: 20px; /* 添加間距 */
     }
-
     
-
     /* 服務區塊 */
     .service_box {
         flex-direction: column; /* 切換為垂直排列 */
@@ -481,22 +466,22 @@ footer{
     }
 
     /* 補充說明 */
-    .more_box,.more_box_white {
+    .more_box,
+    .more_box_white {
         width: 90%; /* 壓縮寬度 */
         padding: 10px;
     }
-
-    .more_title,.more_title_black{
+    .more_title,
+    {
         font-size: 20px;
+    }
+    .more_title_black{
+        font-size: 16px;
     }
     .more_text{
         font-size: 16px;
     }
 
-    .article4_p{
-        font-size: 12px;
-
-    }
     /* footer */
     footer {
         padding: 10px;
