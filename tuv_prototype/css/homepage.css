@@ -281,7 +281,6 @@ body{
     margin: 0;
 }
 
-
 /* 補充說明區塊 */
 .more_box{
     width: 1142px;
@@ -307,6 +306,7 @@ body{
     color: #F2F4EF;
     text-align:left;
 }
+
 /* 第三區塊 */
 #artical3{
     width: 100%;
@@ -450,7 +450,7 @@ footer{
         width: 90%; /* 壓縮寬度 */
         padding: 10px;
     }
-
+    
     .more_text {
         font-size: 16px;
     }
