@@ -285,6 +285,7 @@ body{
 .more_box{
     width: 1142px;
     height: auto;
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -296,7 +297,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     color: #F2F4EF;
-    text-align: center;
+    text-align: left;
 }
 
 /* 第三區塊 */
