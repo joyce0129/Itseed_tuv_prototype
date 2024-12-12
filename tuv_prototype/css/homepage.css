@@ -224,7 +224,7 @@ body{
 
 /* 獎勵區塊小標:兌換金額共?元折價券 */
 .award_text_box{
-    width: 254px;
+    width: 300px;
     height: auto;
     display: flex;
     flex-direction: column;
