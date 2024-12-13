@@ -67,6 +67,16 @@ body{
     margin-top: 24px;
     margin-bottom: 24px;
 }
+/* 小標:此活動僅供測試使用*/
+.title_small{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #DC1428;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0;
+}
 
 /* 按鈕一:了解更多 */
 .option_button1 {
@@ -402,6 +412,11 @@ footer{
         text-align: center;
     }
 
+    .title_small{
+        font-size: 16px;
+        text-align: center;
+    }
+
     .large_text {
         font-size: 60px;
     }
@@ -466,17 +481,15 @@ footer{
     }
 
     /* 補充說明 */
-    .more_box,
-    .more_box_white {
+    .more_box
+    {
         width: 90%; /* 壓縮寬度 */
         padding: 10px;
     }
     .more_title{
         font-size: 20px;
     }
-    .more_title_black{
-        font-size: 16px;
-    }
+   
     .more_text{
         font-size: 16px;
     }
